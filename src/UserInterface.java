@@ -3,7 +3,7 @@ public class UserInterface {
         Database database = new Database();
         database.initialize();
         Student student = database.getStudentById("21670");
-        Course course = new ComputerScience("Computer Science");
+        Course course = new Course("Computer Science");
         student.addCourse(course);
         System.out.println(database);
 
