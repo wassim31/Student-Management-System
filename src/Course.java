@@ -1,4 +1,4 @@
-abstract public class Course {
+ public class Course {
     private String name;
     private final double price;
 
